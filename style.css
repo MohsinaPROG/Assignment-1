@@ -1,7 +1,7 @@
  * {
      padding: 0;
      margin: 0;
-     font-family:Arial,sans-serif;
+     font-family: Arial, sans-serif;
  }
 
  .common-btn {
@@ -32,8 +32,8 @@
      justify-content: center;
      gap: 30px;
      list-style: none;
-     color:#666;
-     
+     color: #666;
+
 
  }
 
@@ -91,51 +91,126 @@
  }
 
  .speaker-container {
-      width: 90%;
-      max-width:1000px;
-      margin:auto;
-      display:grid;
-      grid-template-columns:repeat(2,1fr);
-      gap:30px;
+     width: 90%;
+     max-width: 1000px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 30px;
 
  }
- .speaker-card{
 
-    background:white;
-    border-radius:15px;
-    overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-    text-align:left;
+ .speaker-card {
+     background: white;
+     border-radius: 15px;
+     overflow: hidden;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+     text-align: left;
 
-}
-.speaker-card img{
+ }
 
-    width:100%;
-    height:280px;
-    object-fit:cover;
-    display:block;
+ .speaker-card img {
+     width: 100%;
+     height: 280px;
+     object-fit: cover;
+     display: block;
 
-}
-.track{
+ }
 
-    display:inline-block;
-    color:#2563eb;
-    padding:6px 15px;
-    border-radius:20px;
-    margin:5px;
-    font-size:14px;
+ .track {
+     display: inline-block;
+     color: #2563eb;
+     padding: 6px 15px;
+     border-radius: 20px;
+     margin: 5px;
+     font-size: 14px;
 
-}
-.speaker-card h3{
+ }
 
-    margin:0 20px 10px;
+ .speaker-card h3 {
+     margin: 0 20px 10px;
 
-}
+ }
 
-.speaker-card p{
+ .speaker-card p {
+     margin: 0 20px 25px;
+     color: #666;
 
-    margin:0 20px 25px;
+ }
 
-    color:#666;
+ .pricing {
+     padding: 80px 0;
+     text-align: center;
+     background: #f8fafc;
+ }
 
-}
+ .pricing h2 {
+     font-size: 42px;
+ }
+
+ .subtitle {
+     color: #666;
+     margin-bottom: 50px;
+ }
+
+ .pricing-container {
+     width: 90%;
+     max-width: 1000px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+
+ .pricing-card {
+     background: white;
+     padding: 40px;
+     border-radius: 15px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+ }
+
+ .featured {
+     background: rgb(61, 57, 57);
+     color: white;
+     transform: scale(1.05);
+ }
+
+ .pricing-card h1 {
+     font-size: 48px;
+     margin: 20px 0;
+     text-align: left;
+ }
+
+ .pricing-card p {
+     text-align: left;
+     font-size: 12px;
+ }
+
+ .pricing-card ul {
+     padding: 0;
+     margin: 30px 0;
+     text-align: left;
+ }
+
+ .pricing-card li {
+     margin: 15px 0;
+ }
+
+ li::marker {
+     color: #2563eb;
+ }
+
+ .pricing-card button {
+     width: 100%;
+     padding: 15px;
+     border: 1px solid #2563eb;
+     border-radius: 8px;
+     color: #2563eb;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ .common-btn,
+ .featured button {
+     color: white;
+ }
